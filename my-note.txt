@@ -1,0 +1,5 @@
+https://github.com/SudKul/nd9991-c3-hello-world-exercise-solution/blob/main/roles/setup/tasks/main.yml
+
+
+# Assuming the udacity.pem and inventory files are present in the current directory
+ansible-playbook main-remote.yml -i inventory --private-key udacity.pem
